@@ -201,3 +201,12 @@ console.log(foundElement); // 5
 console.log(separator);
 //
 
+const menu = {
+  _meal: '',
+  _price: 0,
+  set mealToCheck {
+    if (typeof mealToCheck === 'string') {
+      this._meal = mealToCheck;
+    }
+  }
+}
